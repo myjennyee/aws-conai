@@ -206,3 +206,4 @@ with cols[1]:
         bot_response =call_llama_api(user_input) # ollama.chat(model="llama3", messages=[{"role": "user", "content": user_input}]).get("message", {}).get("content", "Error: No response received")
         st.session_state.chat_history.append({"role": "assistant", "content": bot_response})
         st.rerun()
+        #123
